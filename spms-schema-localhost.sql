@@ -29,14 +29,12 @@ CREATE TABLE ACCOUNT (
     CONSTRAINT PRIMARY KEY (accountID)
 );
 
+SELECT * from SEMESTER;
+
 INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (1, 'John', 'Doe', '01221122346', 'johndoe@uni.com', '1234',  'Admin');
-INSERT INTO ADMIN (adAccountID) VALUES (1);
 INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (22, 'Jane', 'Doe', '01456445678', 'janedoe@uni.com', '1234',  'Accreditor');
-INSERT INTO ACCREDITOR (acAccountID) VALUES (22);
 INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (183454, 'Mary', 'Doe', '01457665679', 'marydoe@uni.com', '1234',  'Student');
-INSERT INTO STUDENT (sAccountID) VALUES (183454); #execute after other table insertions
 INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (231092, 'Arthur', 'Doe', '01453689612', 'arthurdoe@uni.com', '1234',  'Faculty');
-INSERT INTO FACULTY (fAccountID) VALUES (231092); #execute after other table insertions
 
 SELECT * FROM ACCOUNT;
 SELECT * FROM ADMIN;
@@ -96,6 +94,9 @@ CREATE TABLE SCHOOL (
     CONSTRAINT PRIMARY KEY (schoolName)
 );
 
+SELECT * from SCHOOL;
+DELETE FROM SCHOOL WHERE schoolName = '';
+
 CREATE TABLE DEPARTMENT (
 	deptID CHAR(255) DEFAULT 'x' NOT NULL,
     schoolName VARCHAR(500) NOT NULL,
@@ -104,21 +105,33 @@ CREATE TABLE DEPARTMENT (
 
 	INDEX(deptName),
     
-    CONSTRAINT PRIMARY KEY (deptID),
-    
-    CONSTRAINT DEPARTMENT_FK1 FOREIGN KEY (schoolName) 
-		REFERENCES SCHOOL (schoolName)
-        ON UPDATE CASCADE ON DELETE RESTRICT
+    CONSTRAINT PRIMARY KEY (deptID)
 );
+
+DELETE FROM DEPARTMENT where deptHeadID=0;
 
 ALTER TABLE DEPARTMENT
 	ADD deptHeadID INT UNSIGNED NOT NULL;
+
 ALTER TABLE DEPARTMENT
-	ADD CONSTRAINT deptHeadID FOREIGN KEY
-    (deptHeadID) REFERENCES FACULTY (fAccountID)
-    ON UPDATE CASCADE ON DELETE RESTRICT;
-ALTER TABLE DEPARTMENT    
-    ADD INDEX(deptID, deptName);
+	ADD CONSTRAINT DEPARTMENT_FK1 FOREIGN KEY
+    (schoolName) REFERENCES SCHOOL (schoolName);
+
+ALTER TABLE DEPARTMENT
+	ADD CONSTRAINT DEPARTMENT_FK2 FOREIGN KEY
+    (deptHeadID) REFERENCES FACULTY (fAccountID);
+    
+select * from department;
+alter table DEPARTMENT DROP FOREIGN KEY DEPARTMENT_FK1;
+alter table DEPARTMENT DROP FOREIGN KEY department_ibfk_1;
+  
+  SELECT 
+  TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME, REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
+FROM
+  INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+WHERE
+  REFERENCED_TABLE_SCHEMA = 'spmsdatabasenew' AND
+  REFERENCED_TABLE_NAME = 'DEPARTMENT';
 
 CREATE TABLE FACULTY (
 	fAccountID INT UNSIGNED NOT NULL,
@@ -177,6 +190,8 @@ CREATE TABLE DEGREE_PROGRAM (
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
+select * from DEGREE_PROGRAM;
+
 CREATE TABLE PROGRAM_LEARNING_OUTCOME (
 	PLOID CHAR(255) DEFAULT 'x' NOT NULL,
     PLOtitle VARCHAR(500) NOT NULL,
@@ -199,7 +214,7 @@ CREATE TABLE COURSE (
     creditHour DECIMAL(1, 0) NOT NULL,
     deptID CHAR(255) NOT NULL,
     
-    INDEX(ourseTitle, deptID),
+    INDEX(courseTitle, deptID),
     
     CONSTRAINT PRIMARY KEY (courseID),
     
@@ -274,6 +289,8 @@ CREATE TABLE CO_PLO_MAPPING  (
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
+SELECT * from SEMESTER;
+
 CREATE TABLE SEMESTER (
 	season VARCHAR(50) NOT NULL,
     year YEAR NOT NULL,
@@ -282,7 +299,7 @@ CREATE TABLE SEMESTER (
 
     CONSTRAINT PRIMARY KEY (season, year)
 );
-alter table OFFERED_COURSES DROP (courseInstructorID);
+
 CREATE TABLE OFFERED_COURSES (
 	offeredCourseID VARCHAR(6) NOT NULL,
     semesterSeason VARCHAR(50) NOT NULL,
