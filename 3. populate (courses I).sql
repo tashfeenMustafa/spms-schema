@@ -137,10 +137,25 @@ Topics covered are: Electricity and Magnetism – Coulomb’s Law, electric fiel
 
 
 
+
 select * from course;
 
 
+INSERT INTO course	(courseID, courseTitle, courseDescription, creditHour, deptID)
+	VALUES	(	'MAT301', 
+				'Ordinary Differential Equations', 
+				'Topics include:  First order ordinary differential equations (existence and uniqueness of solutions, solution techniques, direction fields and stability, modeling applications); Second and higher order linear equations (existence and uniqueness, fundamental set of solutions of homogeneous equations, Wronskian, reduction of order, equations with constant coefficients, method of undetermined coefficients, method of variation of parameters, solutions in series, Laplace transform method, modeling applications); Systems of linear differential equations (existence and uniqueness of solutions, eigenvalue method for homogeneous systems, method of variation of parameters for systems, Laplace transform method for systems, modeling applications). An introduction to nonlinear systems will be covered as well.', 
+'4',
+'CSE'
+);
 
+INSERT INTO course	(courseID, courseTitle, courseDescription, creditHour, deptID)
+	VALUES	(	'MAT203', 
+				'Linear Algebra: Vectors and Metrics', 
+				'Topics include geometry and algebra of vectors and matrices, unit vectors, dot and cross products, elementary concepts of a matrix, row operations, solutions of a system of linear equations; Systems of linear equations and matrices, vector spaces and subspaces, linear dependence and independence, dimensions and bases, linear transformations and matrices, eigenvalues and eigenvectors, changes of coordinates, orthogonality, diagonalization.', 
+'4',
+'CSE'
+);
 
 
 
