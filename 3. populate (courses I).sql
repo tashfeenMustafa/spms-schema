@@ -95,15 +95,54 @@ INSERT INTO course	(courseID, courseTitle, courseDescription, creditHour, deptID
                 'CSE'
 );
 
+INSERT INTO course	(courseID, courseTitle, courseDescription, creditHour, deptID)
+	VALUES	(	'MAT104',
+				'Calculus and Analytical Geomtery', 
+				'This is one of the foundation courses offered by the university, which fulfills the requirement of foundation in “Numeracy”. This course is mandatory for the students who wish to major in Computer Science and Engineering.
 
+Topics include: Functions and their visualization, limits, and continuity; Differential calculus, differentiation of product and quotient; Successive differentiation. Additional techniques of integration. Interpretations of the derivative, applications of the derivative to geometry, mechanics, marginality and optimization. Newton’s method. Introduction to modeling; Integral calculus, integration by parts; Definite integral, interpretations and properties of the definite integral, applications of the definite integral to geometry, mechanics, economics and modeling. Approximating definite integral, approximation errors and Simpson’s rule, improper integrals. Taylor polynomials and series, convergence of series, finding and using Taylor’s series, indeterminate forms, Fourier series. First order differential equations: Slope fields, Euler’s method, separation of variables, linear equations, applications and modeling.', 
+                '3',
+                'CSE'
+);
 
+INSERT INTO course	(courseID, courseTitle, courseDescription, creditHour, deptID)
+	VALUES	(	'CSE212',
+				'Probability & Statistics for Science and Engineering', 
+				'Recently, statistics is becoming increasingly important in understanding physical phenomenon. This is mainly because of two reasons: a) the problems are becoming extremely complicated, so that application of physical laws is becoming increasingly difficult b) in many cases, even the physical laws are not clearly defined or understood. In all these cases, researchers rely upon statistical methods to obtain some insight into the problem. The course "MAT 212 Probability and Statistics have been designed as a first course of Statistics for the students who want to graduate from the department of Electrical and Electronic Engineering. As such, no prior knowledge of statistics is needed. But knowledge of Differential and Integral Calculus is required. It shall be assumed that all students have the necessary background in these branches of mathematics. Students are advised to procure a scientific calculator for use in the class. The calculator must have the function to calculate factorial of an integer, exponential calculation, power calculation and preferably compute permutation and combination calculations. Students may use programmable calculators in examinations.
 
+Topics covered include discrete and continuous random variables; probability concepts; discrete and continuous distributions; Binomial, Poisson, Normal, Exponential distributions; moments and moment generating functions, joint probability distributions; sampling distributions; confidence intervals; Least Square regression; hypothesis testing; analysis of variance.', 
+                '3',
+                'CSE'
+);
 
+INSERT INTO course	(courseID, courseTitle, courseDescription, creditHour, deptID)
+	VALUES	(	'PHY101',
+				'University Physics I', 
+				'This is one of the courses offered by the university, which fulfills the requirement of Basic Sciences for graduation from the university. This course is mandatory for the students who wish to major in Physics, Mathematics, and Computer Science (CS) or in any Engineering Subject. The course forms a one-year standard course in University Physics. There is no prerequisite for this course though it is highly recommended that the students must have a fair amount of background in mathematics. Specially, knowledge of Calculus will be required sometimes. The course will lay emphasis mainly upon physical description of processes rather than complicated mathematical derivations.
 
+Topics include – Mechanics: vectors; motion in one and two-dimension; Newton’s Laws of Motion; work, energy and momentum; rotation; elasticity. Heat and thermodynamics: temperature and heat; laws of thermodynamics. Waves and acoustics: periodic and simple harmonic motion; mechanical waves and vibrating bodies; acoustic phenomena. Optics: nature and propagation of light; reflection and refraction; lenses and optical instruments; interference and diffraction.', 
+                '4',
+                'CSE'
+);
+
+INSERT INTO course	(courseID, courseTitle, courseDescription, creditHour, deptID)
+	VALUES	(	'PHY102',
+				'University Physics II', 
+				'This is one of the courses offered by the university, which fulfills the requirement of Basic Sciences for graduation from the university. This course is mandatory for the students who wish to major in Computer Science (CS) or in any Engineering Subject. The course forms a one-year standard course in University Physics. There is no prerequisite for this course though it is highly recommended that the students must have a fair amount of background in mathematics. Specially, knowledge of Calculus will be required sometimes. The course will lay emphasis mainly upon physical description of processes rather than complicated mathematical derivations.
+
+Topics covered are: Electricity and Magnetism – Coulomb’s Law, electric field, Gauss’ Law, electric potential, capacitance and dielectric, current, resistance, EMF, magnetic field, induction and inductance, DC circuits, alternating currents and circuits, electromagnetic waves; Electronics – network theorems, basic semiconductor concepts, semiconductor diode and rectifier circuits, bipolar transistor, FET, MOSFET, amplifier and operational amplifier.', 
+                '4',
+                'CSE'
+);
 
 
 
 select * from course;
+
+
+
+
+
 
 
 
