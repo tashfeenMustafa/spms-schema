@@ -23,11 +23,11 @@ CREATE TABLE ACCOUNT (
     email VARCHAR(100) UNIQUE NOT NULL,
     password VARCHAR(20),
     accountType VARCHAR(20) CHECK (accountType IN ('Faculty', 'Student', 'Admin', 'Accreditor', 'Management')),
-	
-    INDEX(firstName, lastName, email, password),
     
     CONSTRAINT PRIMARY KEY (accountID)
 );
+
+select * from ACCOUNT;
 
 SELECT * from SEMESTER;
 
@@ -35,10 +35,15 @@ INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, passwor
 INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (22, 'Jane', 'Doe', '01456445678', 'janedoe@uni.com', '1234',  'Accreditor');
 INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (183454, 'Mary', 'Doe', '01457665679', 'marydoe@uni.com', '1234',  'Student');
 INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (231092, 'Arthur', 'Doe', '01453689612', 'arthurdoe@uni.com', '1234',  'Faculty');
-
+INSERT INTO FACULTY (fAccountID, deptID, dateHired, specialization) VALUES (231092, 'CSE', '2014-08-18', 'Databases');
+update DEPARTMENT set deptHeadID=102809 where deptID='CSE';
 SELECT * FROM ACCOUNT;
 SELECT * FROM ADMIN;
 SELECT * from STUDENT;
+SELECT * from FACULTY;
+select * from DEPARTMENT;
+delete from account where accountID='110600';
+SELECT * FROM ACCOUNT as a, FACULTY as f where accountType="Faculty" and a.accountID = f.fAccountID;
 
 CREATE TABLE ADMIN (
 	adAccountID INT UNSIGNED NOT NULL,
@@ -64,8 +69,6 @@ CREATE TABLE ADMIN_TASKS (
 CREATE TABLE ACCREDITOR (
 	acAccountID INT UNSIGNED NOT NULL,
     institution VARCHAR(300),
-    
-    INDEX(acAccountID),
     
     CONSTRAINT PRIMARY KEY (acAccountID),
     
@@ -94,7 +97,7 @@ CREATE TABLE SCHOOL (
     CONSTRAINT PRIMARY KEY (schoolName)
 );
 
-SELECT * from SCHOOL;
+SELECT * from DEGREE_PROGRAM;
 DELETE FROM SCHOOL WHERE schoolName = '';
 
 CREATE TABLE DEPARTMENT (
@@ -153,7 +156,7 @@ CREATE TABLE FACULTY (
 );
 
 ALTER table STUDENT ADD constraint STUDENT_FK2 foreign key (major) REFERENCES DEGREE_PROGRAM(degreeTitle);
-
+select * from student;
 CREATE TABLE STUDENT (
 	sAccountID INT UNSIGNED NOT NULL,
     deptID CHAR(255) NOT NULL,
@@ -174,6 +177,8 @@ CREATE TABLE STUDENT (
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
+SELECT * FROM ACCOUNT as a, STUDENT as s where accountType="Student" and a.accountID = s.sAccountID;
+
 ALTER table DEGREE_PROGRAM ADD constraint unique (degreeTitle);
 
 CREATE TABLE DEGREE_PROGRAM (
@@ -190,7 +195,9 @@ CREATE TABLE DEGREE_PROGRAM (
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
-select * from DEGREE_PROGRAM;
+delete from DEGREE_PROGRAM where degreeID='bscCEN';
+
+select * from COURSE;
 
 CREATE TABLE PROGRAM_LEARNING_OUTCOME (
 	PLOID CHAR(255) DEFAULT 'x' NOT NULL,
@@ -206,6 +213,21 @@ CREATE TABLE PROGRAM_LEARNING_OUTCOME (
 		REFERENCES DEGREE_PROGRAM (degreeID)
 		ON UPDATE CASCADE ON DELETE RESTRICT
 );
+
+
+INSERT INTO PROGRAM_LEARNING_OUTCOME (PLOID, PLOtitle, PLOdescription, degreeID) VALUES ('PLO1', 'Knowledge','An ability to select and apply the knowledge, techniques, skills, and modern tools of the
+computer science and engineering discipline','CSE');
+    
+INSERT INTO PROGRAM_LEARNING_OUTCOME (PLOID, PLOtitle, PLOdescription, degreeID) VALUES ('PLO2', 'Requirement Analysis','An ability to identify, analyze, and solve a problem by defining the
+computing requirements of the problem through effectively gathering of the actual requirements','CSE');
+
+INSERT INTO PROGRAM_LEARNING_OUTCOME (PLOID, PLOtitle, PLOdescription, degreeID) VALUES ('PLO3', 'Problem Analysis','An ability to select and apply the knowledge of mathematics, science,
+engineering, and technology to computing problems that require the application of principles and applied procedures or methodologies','CSE');
+
+INSERT INTO PROGRAM_LEARNING_OUTCOME (PLOID, PLOtitle, PLOdescription, degreeID) VALUES ('PLO4', 'Design','An ability to design computer based systems, components, or processes to meet the desire
+requirement;','CSE');
+
+select * from course;
 
 CREATE TABLE COURSE (
 	courseID VARCHAR(6) DEFAULT 'x' NOT NULL,
@@ -223,6 +245,8 @@ CREATE TABLE COURSE (
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
+select * from degree_program_course;
+
 CREATE TABLE DEGREE_PROGRAM_COURSE (
 	degreeID CHAR(255) DEFAULT 'x' NOT NULL,
     courseID VARCHAR(6) DEFAULT 'x' NOT NULL,
@@ -237,6 +261,9 @@ CREATE TABLE DEGREE_PROGRAM_COURSE (
 		REFERENCES COURSE (courseID)
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
+
+INSERT INTO DEGREE_PROGRAM_COURSE (degreeID, courseID) VALUES ('CSE', 'CSE303');
+INSERT INTO DEGREE_PROGRAM_COURSE (degreeID, courseID) VALUES ('CSE', 'CSC101'); 
 
 CREATE TABLE PREREQUISITE_COURSE (
 	courseID VARCHAR(6) DEFAULT 'x' NOT NULL,
@@ -300,13 +327,17 @@ CREATE TABLE SEMESTER (
     CONSTRAINT PRIMARY KEY (season, year)
 );
 
+alter table OFFERED_COURSES drop courseInstructorID;
+alter table OFFERED_COURSES change courseInstructorID courseCoordinatorID INT UNSIGNED NOT NULL;
+select * from OFFERED_COURSES;
+
 CREATE TABLE OFFERED_COURSES (
 	offeredCourseID VARCHAR(6) NOT NULL,
     semesterSeason VARCHAR(50) NOT NULL,
     semesterYear YEAR NOT NULL,
-    courseInstructorID INT UNSIGNED NOT NULL,
-    
-    INDEX(courseInstructorID),
+    courseCoordinatorID INT UNSIGNED NOT NULL,
+
+    INDEX(courseCoordinatorID),
     
     CONSTRAINT PRIMARY KEY (offeredCourseID, semesterSeason, semesterYear),
     
@@ -318,10 +349,24 @@ CREATE TABLE OFFERED_COURSES (
 		REFERENCES SEMESTER (season, year)
         ON UPDATE CASCADE ON DELETE RESTRICT,
     
-    CONSTRAINT OFFERED_COURSES_FK4 FOREIGN KEY (courseInstructorID) 
+    CONSTRAINT OFFERED_COURSES_FK4 FOREIGN KEY (courseCoordinatorID) 
 		REFERENCES FACULTY (fAccountID)
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
+
+SELECT
+    TABLE_NAME,
+    COLUMN_NAME,
+    CONSTRAINT_NAME,
+    REFERENCED_TABLE_NAME,
+    REFERENCED_COLUMN_NAME
+FROM
+    INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+WHERE
+	REFERENCED_TABLE_SCHEMA = 'spmsdatabasenew'
+    AND REFERENCED_TABLE_NAME = 'section';
+
+alter table OFFERED_COURSES DROP courseInstructorID;
 
 CREATE TABLE SECTION (
 	sectionNumber TINYINT UNSIGNED NOT NULL,
