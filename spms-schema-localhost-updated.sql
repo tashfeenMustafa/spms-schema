@@ -412,6 +412,18 @@ INSERT INTO STUDENT (sAccountID, deptID, degreeID, dateOfAdmission, studentType)
 INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (1892367, NULL, NULL, NULL, NULL, '1234',  'Student');
 INSERT INTO STUDENT (sAccountID, deptID, degreeID, dateOfAdmission, studentType) VALUES (1892367, 'CSE', 'CSE', NULL, 'Undergraduate');
 
+INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (1763881, NULL, NULL, NULL, NULL, '1234',  'Student');
+INSERT INTO STUDENT (sAccountID, deptID, degreeID, dateOfAdmission, studentType) VALUES (1763881, 'CSE', 'CSE', NULL, 'Undergraduate');
+
+INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (1763881, NULL, NULL, NULL, NULL, '1234',  'Student');
+INSERT INTO STUDENT (sAccountID, deptID, degreeID, dateOfAdmission, studentType) VALUES (1763881, 'CSE', 'CSE', NULL, 'Undergraduate');
+
+INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (1842333, NULL, NULL, NULL, NULL, '1234',  'Student');
+INSERT INTO STUDENT (sAccountID, deptID, degreeID, dateOfAdmission, studentType) VALUES (1842333, 'CSE', 'CSE', NULL, 'Undergraduate');
+
+INSERT INTO ACCOUNT (accountID, firstName, lastName, phoneNumber, email, password, accountType) VALUES (1729416, NULL, NULL, NULL, NULL, '1234',  'Student');
+INSERT INTO STUDENT (sAccountID, deptID, degreeID, dateOfAdmission, studentType) VALUES (1729416, 'CSE', 'CSE', NULL, 'Undergraduate');
+
 CREATE TABLE DEGREE_PROGRAM (
 	degreeID CHAR(255) NOT NULL,
     degreeTitle VARCHAR(500) NOT NULL,
@@ -1128,6 +1140,135 @@ INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, se
 	VALUES ('CSE303', 1868128, 'Summer', 2020, 1, 0);
 INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
 	VALUES ('CSE303', 1845457, 'Summer', 2020, 1, 0);
+    
+## inserting student enrollment data for CSE303 Section 2 Summer 2020
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1633554, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1645333, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1691291, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1641252, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1695837, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1668314, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1665491, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1763881, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1773277, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1759787, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1743714, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1728125, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1783512, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1768463, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1797625, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1754681, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1769463, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1731817, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1791753, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1712983, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1784847, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1789481, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1773384, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1762565, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1835874, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1886577, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1834433, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1855787, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1893863, 'Summer', 2020, 2, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1842333, 'Summer', 2020, 2, 0);
+
+## inserting student enrollment data for CSE303 Section 3 Summer 2020
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1528882, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1653725, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1669953, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1616161, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1662147, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1691483, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1674181, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1612985, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1622731, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1678812, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1614733, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1634352, 'Summer', 2020, 3, 0);
+    
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1729416, 'Summer', 2020, 3, 0);
+    
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1781682, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1772947, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1752538, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1731852, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1766176, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1742892, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1736425, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1718437, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1737824, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1797789, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1728139, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1898334, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1863951, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1835298, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1849651, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1887973, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1877262, 'Summer', 2020, 3, 0);
+INSERT INTO STUDENT_ENROLLMENT (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber, totalMarksReceived) 
+	VALUES ('CSE303', 1873255, 'Summer', 2020, 3, 0);
+
 
 CREATE TABLE STUDENT_COURSE_ASSESSMENT (
 	courseAssessmentID INT UNSIGNED NOT NULL,
@@ -1145,6 +1286,62 @@ CREATE TABLE STUDENT_COURSE_ASSESSMENT (
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
+## inserting total marks obtained by each student in midterms for section 1
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1416455, 44);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1579288, 35);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1625654, 40);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1665555, 33);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1613273, 20);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1623112, 49);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1696326, 36);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1646434, 0);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1614142, 45);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1654432, 87);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1661638, 45);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1686272, 14);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1778274, 46);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1795656, 61);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1747457, 14);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1798883, 33);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1766156, 72);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1715578, 53);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1745484, 19);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1788337, 85);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1728439, 58);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1711619, 64);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1711729, 6);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1892367, 59);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1872128, 54);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1868128, 88);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (1, 1845457, 20);
+
 CREATE TABLE STUDENT_QUESTION (
 	courseAssessmentID INT UNSIGNED NOT NULL,
     questionNumber TINYINT UNSIGNED NOT NULL,
@@ -1161,6 +1358,34 @@ CREATE TABLE STUDENT_QUESTION (
 		REFERENCES STUDENT (sAccountID)
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
+
+## student's data for marks obtained for each question of the midterm for section 1
+## student id = 1416455
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 1, 1416455, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 2, 1416455, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 3, 1416455, 5);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 4, 1416455, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 5, 1416455, 2);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 5, 1416455, 7);
+## student id = 1579288
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 1, 1579288, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 2, 1579288, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 3, 1579288, 18);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 4, 1579288, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 5, 1579288, 5);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (1, 5, 1579288, 12);
 
 CREATE TABLE ASSIGNED_COURSE_ASSESSMENT_CO (
 	courseAssessmentID INT UNSIGNED NOT NULL,
