@@ -1751,6 +1751,441 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (1, 5, 1845457, 0);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (1, 6, 1845457, 0);
+    
+## student's data for marks obtained for each question of the midterm for section 2
+## student id = 1633554
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1633554, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1633554, 10);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1633554, 5);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1633554, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1633554, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1633554, 0);
+    
+## student id = 1645333
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1645333, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1645333, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1645333, 23);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1645333, 16);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1645333, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1645333, 13);
+
+## student id = 1691291
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1691291, 6);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1691291, 10);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1691291, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1691291, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1691291, 2);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1691291, 11);
+    
+## student id = 1641252
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1641252, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1641252, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1641252, 24);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1641252, 14);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1641252, 25);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1641252, 17);
+
+## student id = 1695837
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1695837, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1695837, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1695837, 24);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1695837, 14);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1695837, 25);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1695837, 17);
+    
+## student id = 1668314
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1668314, 19);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1668314, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1668314, 24);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1668314, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1668314, 5);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1668314, 7);
+    
+## student id = 1668314
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1668314, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1668314, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1668314, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1668314, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1668314, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1668314, 0);
+    
+## student id = 1665491
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1665491, 18);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1665491, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1665491, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1665491, 16);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1665491, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1665491, 5);
+    
+## student id = 1763881
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1763881, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1763881, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1763881, 27);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1763881, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1763881, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1763881, 15);
+
+## student id = 1773277
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1773277, 17);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1773277, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1773277, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1773277, 18);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1773277, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1773277, 0);
+
+## student id = 1759787
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1759787, 13);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1759787, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1759787, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1759787, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1759787, 5);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1759787, 10);
+    
+## student id = 1743714
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1743714, 8);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1743714, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1743714, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1743714, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1743714, 3);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1743714, 2);
+    
+## student id = 1728125
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1728125, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1728125, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1728125, 24);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1728125, 16);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1728125, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1728125, 18);
+    
+## student id = 1783512
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1783512, 10);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1783512, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1783512, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1783512, 16);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1783512, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1783512, 13);
+    
+## student id = 1768463
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1768463, 10);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1768463, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1768463, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1768463, 16);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1768463, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1768463, 11);
+    
+## student id = 1797625
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1797625, 10);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1797625, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1797625, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1797625, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1797625, 14);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1797625, 14);
+    
+## student id = 1754681
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1754681, 18);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1754681, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1754681, 27);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1754681, 18);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1754681, 5);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1754681, 19);
+    
+## student id = 1769463
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1769463, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1769463, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1769463, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1769463, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1769463, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1769463, 0);
+    
+## student id = 1731817
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1731817, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1731817, 18);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1731817, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1731817, 16);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1731817, 27);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1731817, 16);
+    
+## student id = 1791753
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1791753, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1791753, 18);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1791753, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1791753, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1791753, 17);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1791753, 15);
+    
+## student id = 1712983
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1712983, 8);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1712983, 10);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1712983, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1712983, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1712983, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1712983, 13);
+    
+## student id = 1784847
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1784847, 23);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1784847, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1784847, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1784847, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1784847, 28);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1784847, 19);
+    
+## student id = 1789481
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1789481, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1789481, 19);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1789481, 24);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1789481, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1789481, 27);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1789481, 17);
+    
+## student id = 1773384
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1773384, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1773384, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1773384, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1773384, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1773384, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1773384, 9);
+    
+## student id = 1762565
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1762565, 6);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1762565, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1762565, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1762565, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1762565, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1762565, 4);
+    
+## student id = 1835874
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1835874, 18);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1835874, 25);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1835874, 10);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1835874, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1835874, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1835874, 0);
+    
+## student id = 1886577
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1886577, 17);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1886577, 7);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1886577, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1886577, 10);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1886577, 7);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1886577, 18);
+    
+## student id = 1834433
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1834433, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1834433, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1834433, 27);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1834433, 18);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1834433, 22);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1834433, 19);
+    
+## student id = 1855787
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1855787, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1855787, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1855787, 26);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1855787, 10);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1855787, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1855787, 0);
+    
+## student id = 1893863
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1893863, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1893863, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1893863, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1893863, 6);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1893863, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1893863, 0);
+    
+## student id = 1842333
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 1, 1842333, 20);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 2, 1842333, 0);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 3, 1842333, 15);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 4, 1842333, 14);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 5, 1842333, 6);
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (9, 6, 1842333, 0);
 
 CREATE TABLE STUDENT_ACHIEVED_CO_PLO (
 	enrolledCourseID VARCHAR(6) NOT NULL,
