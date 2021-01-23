@@ -873,7 +873,7 @@ CREATE TABLE COURSE_ASSESSMENT (
         ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
-## insert offered course CSE303 section 1 related info
+## insert offered course CSE303 section 1 course assessment related info
 INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseID, semesterSeason, semesterYear, totalMarksConvertedBy, assessmentTitle, totalMarks)
 	VALUES (1, 1, 'CSE303', 'Summer', 2020, 30, 'Midterm', 150);
 INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseID, semesterSeason, semesterYear, totalMarksConvertedBy, assessmentTitle, totalMarks)
@@ -891,7 +891,7 @@ INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseI
 INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseID, semesterSeason, semesterYear, totalMarksConvertedBy, assessmentTitle, totalMarks)
 	VALUES (8, 1, 'CSE303', 'Summer', 2020, 0, 'Quiz 5', 20);
     
-## insert offered course CSE303 section 2 related info
+## insert offered course CSE303 section 2 course assessment related info
 INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseID, semesterSeason, semesterYear, totalMarksConvertedBy, assessmentTitle, totalMarks)
 	VALUES (9, 2, 'CSE303', 'Summer', 2020, 30, 'Midterm', 150);
 INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseID, semesterSeason, semesterYear, totalMarksConvertedBy, assessmentTitle, totalMarks)
@@ -909,7 +909,7 @@ INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseI
 INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseID, semesterSeason, semesterYear, totalMarksConvertedBy, assessmentTitle, totalMarks)
 	VALUES (16, 2, 'CSE303', 'Summer', 2020, 0, 'Quiz 5', 20);
     
-## insert offered course CSE303 section 3 related info
+## insert offered course CSE303 section 3 course assessment related info
 INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseID, semesterSeason, semesterYear, totalMarksConvertedBy, assessmentTitle, totalMarks)
 	VALUES (17, 3, 'CSE303', 'Summer', 2020, 30, 'Midterm', 150);
 INSERT INTO COURSE_ASSESSMENT (courseAssessmentID, sectionNumber, offeredCourseID, semesterSeason, semesterYear, totalMarksConvertedBy, assessmentTitle, totalMarks)
@@ -1341,6 +1341,133 @@ INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMark
 	VALUES (1, 1868128, 88);
 INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
 	VALUES (1, 1845457, 20);
+    
+## inserting total marks obtained by each student in midterms for section 2
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1633554, 30);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1645333, 89);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1691291, 29);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1641252, 124);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1695837, 55);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1668314, 0);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1665491, 59);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1763881, 42);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1773277, 57);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1759787, 48);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1743714, 33);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1728125, 73);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1783512, 61);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1768463, 57);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1797625, 65);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1754681, 102);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1769463, 20);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1731817, 121);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1791753, 107);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1712983, 73);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1784847, 105);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1789481, 109);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1773384, 44);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1762565, 47);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1835874, 53);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1886577, 79);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1834433, 128);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1855787, 71);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1893863, 26);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (9, 1842333, 55);
+
+## inserting total marks obtained by each student in midterms for section 3
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1528882, 26);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1653725, 0);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1669953, 5);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1616161, 69);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1662147, 25);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1691483, 35);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1674181, 38);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1612985, 42);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1622731, 0);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1678812, 17);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1614733, 0);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1634352, 60);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1729416, 71);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1781682, 39);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1772947, 82);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1752538, 35);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1731852, 37);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1766176, 84);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1742892, 10);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1736425, 98);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1718437, 92);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1737824, 87);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1797789, 23);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1728139, 30);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1898334, 35);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1863951, 98);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1835298, 95);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1849651, 70);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1887973, 62);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1877262, 106);
+INSERT INTO STUDENT_COURSE_ASSESSMENT (courseAssessmentID, sAccountID, totalMarksObtained)
+	VALUES (17, 1873255, 106);
+
 
 CREATE TABLE STUDENT_QUESTION (
 	courseAssessmentID INT UNSIGNED NOT NULL,
@@ -2186,6 +2313,8 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (9, 5, 1842333, 6);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (9, 6, 1842333, 0);
+    
+## student's data for marks obtained for each question of the midterm for section 3
 
 CREATE TABLE STUDENT_ACHIEVED_CO_PLO (
 	enrolledCourseID VARCHAR(6) NOT NULL,
