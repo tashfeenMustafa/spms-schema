@@ -4198,3 +4198,9 @@ FROM (SELECT COUNT(*) AS practicingSemesterFor
 		  WHERE F.fAccountID = S.courseInstructorID
 			  AND OC.offeredCourseID = S.offeredCourseID
 			  AND S.offeredCourseID = CO_MAP.courseID) AS A) AS B;
+              
+## total number of PLO set in the program
+SELECT COUNT(PLOID)
+FROM DEGREE_PROGRAM AS DE, PROGRAM_LEARNING_OUTCOME AS PLO
+WHERE DE.degreeID = PLO.degreeID
+	  AND DE.degreeID = 'CSE';
