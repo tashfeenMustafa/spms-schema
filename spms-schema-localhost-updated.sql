@@ -4179,3 +4179,13 @@ WHERE S.sAccountID = SE.sAccountID
         (SELECT DISTINCT C.courseID AS obeCourses
 		FROM COURSE AS C, PROGRAM_LEARNING_OUTCOME AS PLO, CO_PLO_MAPPING AS CO_PLO_MAP 
 		WHERE C.courseID = CO_PLO_MAP.courseID AND PLO.PLOID = CO_PLO_MAP.PLOID);
+        
+## avg PLO satisfied by students evaluated by OBE model
+
+
+## no. of faculty using OBE model
+SELECT COUNT(DISTINCT fAccountID)
+FROM FACULTY AS F, OFFERED_COURSES AS OC, CO_PLO_MAPPING AS CO_MAP, SECTION AS S
+WHERE F.fAccountID = S.courseInstructorID
+	  AND OC.offeredCourseID = S.offeredCourseID
+      AND S.offeredCourseID = CO_MAP.courseID;
