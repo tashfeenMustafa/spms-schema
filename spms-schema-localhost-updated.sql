@@ -4189,3 +4189,12 @@ FROM FACULTY AS F, OFFERED_COURSES AS OC, CO_PLO_MAPPING AS CO_MAP, SECTION AS S
 WHERE F.fAccountID = S.courseInstructorID
 	  AND OC.offeredCourseID = S.offeredCourseID
       AND S.offeredCourseID = CO_MAP.courseID;
+      
+## practicing semesters for faculty
+SELECT AVG(practicingSemesterFor)
+FROM (SELECT COUNT(*) AS practicingSemesterFor
+	 FROM(SELECT DISTINCT S.semesterSeason, S.semesterYear
+		  FROM FACULTY AS F, OFFERED_COURSES AS OC, CO_PLO_MAPPING AS CO_MAP, SECTION AS S
+		  WHERE F.fAccountID = S.courseInstructorID
+			  AND OC.offeredCourseID = S.offeredCourseID
+			  AND S.offeredCourseID = CO_MAP.courseID) AS A) AS B;
