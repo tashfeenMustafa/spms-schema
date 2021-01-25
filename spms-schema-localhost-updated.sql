@@ -3168,6 +3168,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1528882, 13);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1528882, 6);
+    
 ## student id = 1653725
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3192,6 +3196,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1653725, 0);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1653725, 0);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1653725, 0);
 
 ## student id = 1669953
 ## midterm
@@ -3218,6 +3226,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1669953, 0);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1669953, 0);
+    
 ## student id = 1616161
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3242,6 +3254,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1616161, 8);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1616161, 15);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1616161, 0);
     
 ## student id = 1662147
 ## midterm
@@ -3268,6 +3284,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1662147, 4);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1662147, 9);
+    
 ## student id = 1691483
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3293,6 +3313,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1691483, 4);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1691483, 6);
+    
 ## student id = 1674181
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3317,6 +3341,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1674181, 8);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1674181, 6);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1674181, 11);
 
 ## student id = 1612985
 ## midterm
@@ -3343,6 +3371,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1612985, 21);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1612985, 12);
+    
 ## student id = 1622731
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3368,6 +3400,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1622731, 0);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1622731, 0);
+    
 ## student id = 1678812
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3392,6 +3428,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1678812, 13);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1678812, 19);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1678812, 23);
 
 ## student id = 1614733
 ## midterm
@@ -3417,6 +3457,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1614733, 13);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1614733, 9);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1614733, 10);
 
 ## student id = 1634352
 ## midterm
@@ -3443,6 +3487,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1634352, 13);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1634352, 12);
+    
 ## student id = 1729416
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3467,6 +3515,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1729416, 15);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1729416, 5);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1729416, 19);
 
 ## student id = 1781682
 ## midterm
@@ -3493,6 +3545,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1781682, 18);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1781682, 11);
+    
 ## student id = 1772947
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3518,6 +3574,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1772947, 15);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1772947, 0);
+    
 ## student id = 1752538
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3542,6 +3602,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1752538, 11);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1752538, 18);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1752538, 0);
 
 ## student id = 1731852
 ## midterm
@@ -3568,6 +3632,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1731852, 22);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1731852, 0);
+    
 ## student id = 1766176
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3592,6 +3660,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1766176, 10);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1766176, 18);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1766176, 0);
     
 ## student id = 1742892
 ## midterm
@@ -3618,6 +3690,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1742892, 2);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1742892, 23);
+    
 ## student id = 1736425
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3642,6 +3718,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1736425, 13);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1736425, 27);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1736425, 9);
     
 ## student id = 1718437
 ## midterm
@@ -3668,6 +3748,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1718437, 21);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1718437, 19);
+    
 ## student id = 1737824
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3693,6 +3777,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1737824, 6);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1737824, 19);
+    
 ## student id = 1797789
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3717,6 +3805,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1797789, 12);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1797789, 12);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1797789, 9);
     
 ## student id = 1728139
 ## midterm
@@ -3742,6 +3834,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1728139, 7);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1728139, 14);
+
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1728139, 9);
     
 ## student id = 1797789
 ## midterm
@@ -3767,6 +3863,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1797789, 12);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1797789, 12);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1797789, 9);
     
 ## student id = 1898334
 ## midterm
@@ -3793,6 +3893,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1898334, 26);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1898334, 19);
+    
 ## student id = 1863951
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3817,6 +3921,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1863951, 15);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1863951, 9);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1863951, 20);
     
 ## student id = 1835298
 ## midterm
@@ -3843,6 +3951,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1835298, 5);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1835298, 17);
+    
 ## student id = 1849651
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3867,6 +3979,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1849651, 11);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1849651, 9);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1849651, 12);
     
 ## student id = 1887973
 ## midterm
@@ -3893,6 +4009,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1887973, 15);
     
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1887973, 24);
+    
 ## student id = 1877262
 ## midterm
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
@@ -3917,6 +4037,10 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 	VALUES (18, 3, 1877262, 15);
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1877262, 9);
+    
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1877262, 24);
     
 ## student id = 1873255
 ## midterm
@@ -3943,17 +4067,19 @@ INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, ma
 INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
 	VALUES (18, 4, 1873255, 7);
 
-
+## project
+INSERT INTO STUDENT_QUESTION (courseAssessmentID, questionNumber, sAccountID, marksObtained) 
+	VALUES (11, 4, 1873255, 24);
 
 CREATE TABLE STUDENT_ACHIEVED_CO_PLO (
 	enrolledCourseID VARCHAR(6) NOT NULL,
     sAccountID INT UNSIGNED NOT NULL,
     semesterSeason VARCHAR(50) NOT NULL,
     semesterYear YEAR NOT NULL,
-    COAchieved CHAR(255), # change COAchieved to Boolean
+    COAchieved CHAR(255), # change COAchieved to Boolean(maybe)
     totalMarksReceivedForCO DOUBLE,
     sectionNumber TINYINT UNSIGNED,
-    PLOAchieved CHAR(255), ## change PLOachieved to Boolean
+    PLOAchieved CHAR(255), ## change PLOachieved to Boolean(maybe)
     
     CONSTRAINT PRIMARY KEY (enrolledCourseID, sAccountID, semesterSeason, semesterYear, sectionNumber),
     
